@@ -1,0 +1,11 @@
+-----------Branching-----
+git checkout -b branch1
+git add .
+git commit -m "added for branch1"
+git push --set-upstream origin branch1
+
+
+----------Merging---------
+git checkout master
+git merge branch1
+git push
